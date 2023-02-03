@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    background-color: rgb(47, 47, 47);
+}
+#startGame {
+    background-color: rgb(255, 0, 0);
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-size: large;
+    color: black;
+    margin: 70px 20px 20px;
+    cursor: pointer;
+    align-self: center;
+    border: 3px solid white;
+    color: white;
+    font-weight: bolder;
+}
+
+.mainTitle {
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(255, 202, 8);
+}
+
+.attempts {
+    font-size: x-large;
+    margin-bottom: 20px;
+    color: rgb(0, 160, 162);
+    font-weight: bolder;
+}
+
+.nickname {
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 5% 0;
+    margin: 0px 30%;
+    align-items: center;
+}
+
+.grid-item {
+    border: 3px black solid;
+    height: 100%;
+    width: 100%;
+    font-size: 5rem;
+    background-color: #fff;
+}
+
+div.grid-item>img {
+    height: 55%;
+    width: 55%;
+    padding: 0px 5px 0px;
+    margin-top: 10px;
+}

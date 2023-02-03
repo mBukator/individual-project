@@ -1,0 +1,85 @@
+@font-face {
+	font-family: serif;
+	src: url(/fonts/Javanese.ttf);
+ }
+ @font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('fonts/MYRIADPRO-REGULAR.woff') format('woff');
+    }
+ @font-face {
+    font-family: 'Myriad Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Bold'), url('fonts/MYRIADPRO-BOLD.woff') format('woff');
+}
+
+:root {
+    --color1: #1b1b1b;
+    --color2: #424242;
+}
+
+
+/*Header, Footer, Section*/
+section {
+    padding: 50px 0;
+}
+header, footer {
+    background: var(--color1);
+    background: -moz-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
+    background: -webkit-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
+    background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=var(--color1), endColorstr=var(--color2), GradientType=1);
+}
+header {
+    padding: 80px 0;
+}
+footer {
+    padding: 30px 0;
+}
+/*Ending of Header, Footer, Section*/
+
+
+.lr :hover, .li a:hover {
+    background-color: rgb(88, 88, 88);
+    color: rgb(255, 255, 255);
+}
+
+
+/*Carousel*/
+.carouselSection {
+    background-color: rgb(235, 234, 236);
+}
+/*Ending Of Carousel*/
+
+
+/*For Whom Section*/
+.forwhom h5 {
+    padding: 50px;
+    border: 3px var(--color2) solid;
+}
+
+.forwhom a {
+    text-decoration: none;
+    color: var(--color1);
+}
+/*Ending Of For Whom Section*/
+
+
+/*NavBar Brand Logo*/
+.navBrand {
+    width: 50px;
+    height: 50px;
+}
+/*Ending Of NavBar*/
+
+
+/*Colors*/
+.color1 {
+    color: var(--color1);
+}
+.color2 {
+    color: var(--color2);
+}
+/*Ending Of Colors*/
